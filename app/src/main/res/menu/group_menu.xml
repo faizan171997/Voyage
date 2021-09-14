@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:title="Hello"
+        android:id="@+id/pppp"
+        app:showAsAction="always"
+        android:icon="@drawable/start"/>
+
+    <item
+        android:id="@+id/loc"
+        android:icon="@mipmap/location"
+        android:title="@string/action_favorite"
+        app:showAsAction="always"/>
+
+
+
+
+    <item android:id="@+id/add_user"
+        android:title="Add User"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/view_user"
+        android:title="View Users"
+        app:showAsAction="never"/>
+    <item android:id="@+id/show_bill"
+        android:title="Bill Split"
+        app:showAsAction="never"/>
+    <item android:id="@+id/leavegrp"
+        android:title="Leave Group"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/deletegrp"
+        android:title="Delete Group"
+        app:showAsAction="never"/>
+
+</menu>
